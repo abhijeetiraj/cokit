@@ -1,0 +1,119 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="GENERATOR" content="Mozilla/4.78 [en] (Win98; U) [Netscape]">
+   <title>Introduction</title>
+</head>
+<body>
+
+<h1>
+<font color="#3366FF">Design Methodology</font></h1>
+
+<h2>
+<font color="#FF6666">Introduction:</font></h2>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Exploring the computer design process is the main aim of this software.A
+complex object such as a digital computer is an example of a system,which
+may be defined informally as a collection of objects, called components,connected
+to form a coherent entity with a well-defined function or purpose. The
+function performed by the system is determined by those performed by its
+components and the manner in which the components are intrconnected. Two
+central properties of any system are its structure and behaviour.The structure
+of a system is the abstract graph consisting of its block diagram with
+no functional information.On the another hand,behavioural description enables
+one to determine for any given input signal a to the system the corresponding
+output <i>f</i>(a).
+<h2>
+<font color="#FF6666"><font size=+1>Design problem</font></font></h2>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+We now see the problem facing the computer designer(or any system designer).Given
+a desired range of behavior and a set of available components,determine
+a structure formed from these components that achieves the desired behavior
+at an acceptable cost.
+<h2>
+<font color="#FF6666"><font size=+1>Data and control</font></font></h2>
+
+<center><img SRC="images\comp.gif" img  align=LEFT></center>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+It can be very useful to divide a digital system into two parts,a data
+processing unit and a control unit. For example,in the simple computer
+model shown in figure,the CPU is the data prcessing part,while the memory
+which contains the programs to be executed,is the control part. The CPU
+is is neatly devided into an arithmatic logic unit(the data processing
+part) and a program control unit (the control part).The components and
+connections (data paths)traversed by the data constitute the data processing
+unit and the rest of the machine is the control unit.The paths to be traversed
+by by the data and the operations to be performed at each point of time
+by the data processing unit are specified by the control unit.
+<h2>
+<font color="#FF6666"><font size=+1>Design levels</font></font></h2>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+The design of a complex system such as a computer can be viewed on many
+different levels, depending on the components recognized as primitive or
+indivisible.At least three major levels can be identified in digital computer
+design
+<br>1.Gate level
+<br>2.Register level
+<br>3.Processor level
+<h3>
+The major computer design levels...</h3>
+
+<center><table BGCOLOR="#9999BB" FGCOLOR="#000000" >
+<tr>
+<td><b><i><u>Design level</u></i></b></td>
+
+<td><b><i><u>Components</u></i></b></td>
+
+<td><b><i><u>IC density</u></i></b></td>
+
+<td><b><i><u>Information units</u></i></b></td>
+</tr>
+
+<tr>
+<td><b><i>Processor&nbsp;</i></b></td>
+
+<td>CPUs,IOPs,memories,IO devices&nbsp;</td>
+
+<td>LSI/VLSI&nbsp;</td>
+
+<td>Blocks of words&nbsp;</td>
+</tr>
+
+<tr>
+<td><b><i>Register&nbsp;</i></b></td>
+
+<td>Registers,combinational and sequential circuits&nbsp;</td>
+
+<td>MSI&nbsp;</td>
+
+<td>Words&nbsp;</td>
+</tr>
+
+<tr>
+<td><b><i>Gate&nbsp;</i></b></td>
+
+<td>Logic gates,flip-flops&nbsp;</td>
+
+<td>SSI&nbsp;</td>
+
+<td>Bits&nbsp;</td>
+</tr>
+</table></center>
+
+<p>Above figure shows some distinctions between the design levels.The type
+of information processed increases in complexity as one progresses from
+the gate to the processor level.At the gate level, individual or "random"
+bits are processed.At the register level,informaton is organized into words
+or vectors. Such words represent numbers,instructions,character strings,and
+the like.At the processor level,the units of information are blocks of
+words,e.g.,programs and data sets.
+<p>
+<hr>
+<center><a href="../../SwingSet2.html"><img SRC="Whtnex~1.gif" BORDER=0 height=37 width=187></a></center>
+
+<p><br>
+<br>
+<br>
+</body>
+</html>
